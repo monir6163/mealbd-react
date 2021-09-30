@@ -1,0 +1,13 @@
+.img-card {
+    width: 500px;
+    height: 300px;
+    margin: 2rem auto;
+    overflow: hidden;
+    border: 0.25rem solid skyblue;
+    box-shadow: 0 0 5px 5px #999;
+}
+.text-card {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+}
