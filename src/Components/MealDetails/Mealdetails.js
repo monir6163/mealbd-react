@@ -13,7 +13,6 @@ const Mealdetails = () => {
             .then(res => res.json())
             .then(data => setMeal(data.meals[0]))
     }, [mealID])
-    console.log(meal)
     const history = useHistory();
     const handleMeals = () => {
         history.push("/resturent")
